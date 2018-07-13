@@ -8,9 +8,9 @@ getting to a working U-Boot console on the Oxalis.
 
 Your kit should include the following:
 
-* Oxalis Board.
-* LS1012A SOM mounted onto the Oxalis.
-* A plug fitting the 12V power jack on the board, in case you have to fashion one yourself.
+* Oxalis Board
+* LS1012A SOM mounted onto the Oxalis
+* A plug fitting the 12V power jack on the board, in case you need to fashion a power supply cable
 
 ![Image of Oxalis with connectors](img/OxalisV200_Connectors.svg.png?raw=true "Oxalis")
 
