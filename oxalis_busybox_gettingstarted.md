@@ -2,12 +2,12 @@
 title: 'SYSTART - Oxalis SDK'
 ...
 
-Binary image download {#_binary_image_download}
+Binary image download 
 =====================
 
 You can find binary images under <http://www.ebs-systart.com/oxalis>
 
-Building an image from the NXP QoriQ reference SDK (Yocto based) {#_building_an_image_from_the_nxp_qoriq_reference_sdk_yocto_based}
+Building an image from the NXP QoriQ reference SDK (Yocto based) 
 ================================================================
 
 The following instructions assume you are running Linux and are well
@@ -26,7 +26,7 @@ NOTE
     get Warnings to ignore and patches to apply. It will not work out of
     the box.
 
-Install and update the NXP Reference SDK {#_install_and_update_the_nxp_reference_sdk}
+Install and update the NXP Reference SDK 
 ----------------------------------------
 
 The SDK is only available for download with an NXP.com account, which is
@@ -55,7 +55,7 @@ NOTE
     specific customizations but might be bootable on your board
     (not supported).
 
-Pull in the source code for Oxalis {#_pull_in_the_source_code_for_oxalis}
+Pull in the source code for Oxalis 
 ----------------------------------
 
 Yocto is essentially a complete source tree of Linux and all its tools,
@@ -67,7 +67,7 @@ NOTE
 :   If you want to understand what is happening in detail, refer to the
     Yocto documentation.
 
-Get the BSP Layer {#_get_the_bsp_layer}
+Get the BSP Layer 
 -----------------
 
 Execute the following:
@@ -111,7 +111,7 @@ After the build you can find the images in:
 
     <sdk-install-dir>/<build-dir>/tmp/deploy/images/ls1012aoxalis/
 
-Deploying the kernelitb ramdisk image to Oxalis {#_deploying_the_kernelitb_ramdisk_image_to_oxalis}
+Deploying the kernelitb ramdisk image to Oxalis 
 ===============================================
 
 NOTE
@@ -133,7 +133,7 @@ The onboard flash memory is 64MB in size. You should keep your Kernel
 and Ramdisk image below 55MB in size for unproblematic operation. (First
 5 MB are reserved for bootloader and initialization data.)
 
-Via SD Card, USB Stick or SATA {#_via_sd_card_usb_stick_or_sata}
+Via SD Card, USB Stick or SATA 
 ------------------------------
 
 1.  Format the storage medium with fat32
@@ -172,10 +172,10 @@ Via SD Card, USB Stick or SATA {#_via_sd_card_usb_stick_or_sata}
         LS1012A. It needs to be shut down before Kernel boot, so the
         Kernel code can reinitialize PFE for itself.
 
-Configure Autoboot via QSPI {#_configure_autoboot_via_qspi}
+Configure Autoboot via QSPI 
 ---------------------------
 
-Congratulations! {#_congratulations}
+Congratulations! 
 ================
 
 You are now running a full Linux Kernel with a minimal Linux environment
